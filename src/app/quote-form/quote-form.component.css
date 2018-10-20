@@ -1,0 +1,28 @@
+:host {
+  display: block;
+}
+
+section {
+  background-color: #fff;
+  padding: 10px 12px;
+  border-radius: 3px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 7px;
+}
+
+.Section--top {
+  text-align: center;
+}
+
+form button {
+  background-color: #f7be01;
+  border-color: #f7be01;
+  font-weight: bold;
+}

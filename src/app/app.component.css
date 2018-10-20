@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: rgba(94,53,177, 0.9);
+}
+
+main {
+  padding: 15px 0;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  app-headline {
+    flex: 20%;
+    margin-right: 20px;
+  }
+
+  app-quote-form {
+    flex: 1;
+  }
+}

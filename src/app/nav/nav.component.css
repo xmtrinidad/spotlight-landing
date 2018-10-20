@@ -1,0 +1,39 @@
+:host {
+  display: block;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.Nav__items {
+  display: none;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+@media(min-width: 768px) {
+
+  .row-right {
+    display: flex;
+    justify-self: flex-end;
+  }
+
+  .Nav__items li:not(:last-child) {
+    margin-right: 10px;
+  }
+  .Nav__menu-btn {
+    display: none;
+  }
+}

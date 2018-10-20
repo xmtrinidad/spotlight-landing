@@ -1,0 +1,41 @@
+:host {
+  display: block;
+  color: #fff;
+}
+
+footer {
+  padding: 10px 0 15px 0;
+}
+
+footer .container {
+  text-align: center;
+}
+
+.Icons__list {
+  display: flex;
+  justify-content: center;
+}
+
+.Icons__list li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.Icons__list li {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .row-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .row-right > span {
+    margin-right: 30px;
+  }
+}
