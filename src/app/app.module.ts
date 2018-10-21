@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { HeadlineComponent } from './headline/headline.component';
+import { ButtonHighlightDirective } from './directives/button-highlight.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeadlineComponent } from './headline/headline.component';
     NavComponent,
     FooterComponent,
     QuoteFormComponent,
-    HeadlineComponent
+    HeadlineComponent,
+    ButtonHighlightDirective
   ],
   imports: [
     BrowserModule,

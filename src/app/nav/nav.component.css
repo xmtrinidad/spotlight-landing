@@ -6,8 +6,18 @@
 }
 
 
+a:hover {
+  color: #f7be01;
+}
+
 .Nav__items {
   display: none;
+  font-size: .94rem;
+}
+
+.Nav__items li {
+  display: flex;
+  align-items: center;
 }
 
 .flex-row {
@@ -35,5 +45,15 @@
   }
   .Nav__menu-btn {
     display: none;
+  }
+
+  li[appButtonHighlight] {
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+
+  li[appButtonHighlight] a:hover {
+    color: #000;
   }
 }
